@@ -1,0 +1,81 @@
+
+  body{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.jp{
+  width:100%;
+}
+
+nav{
+  width:100%;
+  line-height: 30px;
+  height: 80px;
+  display:flex;
+  justify-content: space-between;
+
+}
+.logo a{
+  font-size:39px;
+  color:red;
+  font-weight:bold;
+  margin: left 100px;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  font-size:20px;
+  transition: 0.5s all ease;
+}
+ul{
+  margin: 0px;
+  margin:rigth:10px;
+
+}
+ul li{
+  float: left;
+  padding: 0px 15px;
+  list-style: none;
+}
+ul li a:hover{
+  color:darkorchid;
+}
+
+.header{
+  background-image:url(jp3.jpg);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.content{
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:#fff;  
+  text-align: center;
+} 
+
+.content h1{
+  font-size: 40px;
+}
+
+.content p{
+  padding:0px 70px ;
+  font-size:15px ;
+}
+
+.button{
+  background:none;
+  border: 1px solid white;
+  color: white;
+  font-size: 18px;
+  padding: 10px 25px;
+  border:radius: 6;
+  transition: 0.5s all ease;  
+}
+
